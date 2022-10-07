@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,46 @@
     <script src="./js/script.js" defer></script>
 
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style-global.css">
+    <link rel="stylesheet" href="../css/style-telas.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Divisão de valores</title>
 
 </head>
+
 <body>
 
-    </form>
+    <div class="container">
+        <div class="partet">
+            <div class="text">
+                <p>Descubra a Divisão de dois numero</p>
+            </div>
+            <div class="conteudo">
 
-    <p>Descubra a Divisão de dois numero</p>
+                <form action="">
+                    <p>Digite o primeiro numero:</p>
+                    <input type="text" class="input" id="numero1" placeholder="Digite um numero" required>
 
-    <form action="">
-        <input type="text" class="input" id="numero1" placeholder="Digite um numero" required> /
-        <input type="text" class="input" name="" id="numero2" placeholder="Digite um numero" required> =
-        <input type="number" id="resultado" readonly>
-        <input type="button" value="Calcular" onclick="divisao()">
-    </form>
+                    <p>Digite o segundo numero:</p>
+                    <input type="text" class="input" name="" id="numero2" placeholder="Digite um numero" required>
 
-    <a href="../index.html"><input type="submit" value="Voltar"></a>
-    
+                    <p>O resultado da sua divisão é:</p>
+                    <input type="number" id="resultado" readonly><br>
+                    <input type="button" value="Calcular" onclick="divisao()">
+                </form>
+            </div>
+
+            <a href="../index.html"><input type="submit" value="Voltar"></a>
+        </div>
+    </div>
 
 
-    
-    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </body>
+
 </html>
